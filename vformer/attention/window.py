@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from timm.models.layers import trunc_normal_
+
 
 from ..utils import ATTENTION_REGISTRY, get_relative_position_bias_index, pair
 
